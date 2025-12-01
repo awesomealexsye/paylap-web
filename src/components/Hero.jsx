@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { ArrowRight, Sparkles, Zap, Rocket, Star } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import companyData from '../data/companyInfo.json';
 import Lottie from 'lottie-react';
 import heroAnimation from '../assets/lottie/hero-tech.json';
@@ -158,34 +159,36 @@ const Hero = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.6 }}
                         >
-                            <motion.a
-                                href="#projects"
-                                className="group px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-bold text-lg shadow-2xl shadow-blue-600/50 flex items-center justify-center gap-3 relative overflow-hidden"
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                            >
+                            <Link to="/projects">
                                 <motion.div
-                                    className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600"
-                                    initial={{ x: "100%" }}
-                                    whileHover={{ x: 0 }}
-                                    transition={{ duration: 0.3 }}
-                                />
-                                <span className="relative z-10 flex items-center gap-3">
-                                    <Rocket size={22} />
-                                    View Our Work
-                                    <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform" />
-                                </span>
-                            </motion.a>
+                                    className="group px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-bold text-lg shadow-2xl shadow-blue-600/50 flex items-center justify-center gap-3 relative overflow-hidden cursor-pointer"
+                                    whileHover={{ scale: 1.05 }}
+                                    whileTap={{ scale: 0.95 }}
+                                >
+                                    <motion.div
+                                        className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600"
+                                        initial={{ x: "100%" }}
+                                        whileHover={{ x: 0 }}
+                                        transition={{ duration: 0.3 }}
+                                    />
+                                    <span className="relative z-10 flex items-center gap-3">
+                                        <Rocket size={22} />
+                                        View Our Work
+                                        <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform" />
+                                    </span>
+                                </motion.div>
+                            </Link>
 
-                            <motion.a
-                                href="#contact"
-                                className="px-10 py-5 bg-white/5 hover:bg-white/10 border-2 border-white/20 text-white rounded-full font-bold text-lg transition-all backdrop-blur-xl shadow-lg hover:shadow-xl flex items-center justify-center gap-3"
-                                whileHover={{ scale: 1.05, borderColor: "rgba(255,255,255,0.4)" }}
-                                whileTap={{ scale: 0.95 }}
-                            >
-                                <Star size={22} />
-                                Start a Project
-                            </motion.a>
+                            <Link to="/contact">
+                                <motion.div
+                                    className="px-10 py-5 bg-white/5 hover:bg-white/10 border-2 border-white/20 text-white rounded-full font-bold text-lg transition-all backdrop-blur-xl shadow-lg hover:shadow-xl flex items-center justify-center gap-3 cursor-pointer"
+                                    whileHover={{ scale: 1.05, borderColor: "rgba(255,255,255,0.4)" }}
+                                    whileTap={{ scale: 0.95 }}
+                                >
+                                    <Star size={22} />
+                                    Start a Project
+                                </motion.div>
+                            </Link>
                         </motion.div>
 
                         {/* Tech Stack Showcase */}

@@ -74,7 +74,7 @@ const Navbar = () => {
                             className="relative"
                         >
                             <img
-                                src="/src/assets/paylap.png"
+                                src="/paylap.png"
                                 alt={companyData.company.name}
                                 className="h-10 w-auto drop-shadow-lg"
                             />
@@ -131,14 +131,15 @@ const Navbar = () => {
                     })}
 
                     {/* CTA Button */}
-                    <motion.a
-                        href="#contact"
-                        className="ml-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-sm shadow-lg shadow-blue-600/30 hover:shadow-purple-600/50 transition-all duration-300"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                    >
-                        Get Started
-                    </motion.a>
+                    <Link to="/contact">
+                        <motion.div
+                            className="ml-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-sm shadow-lg shadow-blue-600/30 hover:shadow-purple-600/50 transition-all duration-300 cursor-pointer"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
+                            Get Started
+                        </motion.div>
+                    </Link>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -204,16 +205,17 @@ const Navbar = () => {
                                 </motion.div>
                             ))}
 
-                            <motion.a
-                                href="#contact"
-                                onClick={() => setIsOpen(false)}
-                                className="block p-4 mt-2 rounded-xl text-center bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold shadow-lg"
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: navLinks.length * 0.05 }}
-                            >
-                                Get Started
-                            </motion.a>
+                            <Link to="/contact">
+                                <motion.div
+                                    onClick={() => setIsOpen(false)}
+                                    className="block p-4 mt-2 rounded-xl text-center bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold shadow-lg cursor-pointer"
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: navLinks.length * 0.05 }}
+                                >
+                                    Get Started
+                                </motion.div>
+                            </Link>
                         </div>
                     </motion.div>
                 )}

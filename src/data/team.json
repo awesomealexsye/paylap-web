@@ -4,49 +4,49 @@
             "name": "Sunil Singh",
             "role": "CEO & Founder",
             "description": "20+ years in fitness industry management",
-            "image": "/assets/teams/sunil.jpg",
+            "image": "https://storage.googleapis.com/paylapfitness/uploads/teams/sunil.jpg",
             "color": "from-blue-500 to-purple-600"
         },
         {
             "name": "Divya Rai",
             "role": "Marketing Manager",
             "description": "Strategic marketing expert with 5+ years in fitness industry branding",
-            "image": "/assets/teams/divya.jpg",
+            "image": "https://storage.googleapis.com/paylapfitness/uploads/teams/divya.jpg",
             "color": "from-pink-500 to-red-500"
         },
         {
             "name": "Arbaz Khan",
             "role": "IT & Software Engineer",
             "description": "Full-stack developer with expertise in modern web/apps technologies",
-            "image": "/assets/teams/arbaz.jpg",
+            "image": "https://storage.googleapis.com/paylapfitness/uploads/teams/arbaz.jpg",
             "color": "from-green-400 to-blue-500"
         },
         {
             "name": "Mathura Meena Khatri",
             "role": "Marketing Asst. Manager",
             "description": "Marketing professional specializing in digital campaigns and brand development",
-            "image": "/assets/teams/mathura-meena.jpg",
+            "image": "https://storage.googleapis.com/paylapfitness/uploads/teams/mathura-meena.jpg",
             "color": "from-blue-400 to-purple-500"
         },
         {
             "name": "Rani",
             "role": "Sales Executive",
             "description": "Dedicated sales professional focused on gym membership growth and client relationship management",
-            "image": "/assets/teams/rani.jpg",
+            "image": "https://storage.googleapis.com/paylapfitness/uploads/teams/rani.jpg",
             "color": "from-purple-500 to-pink-500"
         },
         {
             "name": "Tejprtap Singh",
             "role": "Sales Executive",
             "description": "Corporate wellness and partnership-focused sales specialist",
-            "image": "/assets/teams/tejprtapsingh.jpg",
+            "image": "https://storage.googleapis.com/paylapfitness/uploads/teams/tejprtapsingh.jpg",
             "color": "from-purple-500 to-pink-500"
         },
         {
             "name": "Ujjawal Singh",
             "role": "Sales Executive",
             "description": "Sales expert focusing on membership acquisition and retention strategies",
-            "image": "/assets/teams/ujjawalsingh.jpg",
+            "image": "https://storage.googleapis.com/paylapfitness/uploads/teams/ujjawalsingh.jpg",
             "color": "from-purple-500 to-pink-500"
         }
     ]

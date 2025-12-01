@@ -1,5 +1,5 @@
 {
-    "projects": [
+    "web": [
         {
             "id": 1,
             "name": "PayLap Real Estate",
@@ -35,6 +35,77 @@
             ],
             "liveUrl": "https://paylapeducation.com/",
             "thumbnail": "/images/projects/education.jpg"
+        },
+        {
+            "id": 4,
+            "name": "PayLap Pet Care",
+            "description": "India's most trusted pet care platform for adoption, sales, and rescue cases.",
+            "techStack": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "liveUrl": "https://paylappetcare.com/",
+            "thumbnail": "/images/projects/petcare.jpg"
+        },
+        {
+            "id": 5,
+            "name": "PayLap Score",
+            "description": "Comprehensive credit scoring and financial health monitoring platform.",
+            "techStack": [
+                "React",
+                "Python",
+                "PostgreSQL"
+            ],
+            "liveUrl": "https://paylapscore.com/",
+            "thumbnail": "/images/projects/score.jpg"
+        },
+        {
+            "id": 6,
+            "name": "GYF Holidays",
+            "description": "Your Trusted B2B Travel Partner. Premium travel and tour packages for corporate and group bookings.",
+            "techStack": [
+                "React",
+                "Vite",
+                "TailwindCSS"
+            ],
+            "liveUrl": "https://gyfholidays.com/",
+            "thumbnail": "/images/projects/travel.jpg"
+        }
+    ],
+    "mobile": [
+        {
+            "id": 101,
+            "name": "PayLap Fitness App",
+            "description": "Health is Wealth. A complete gym management and fitness tracking solution.",
+            "androidUrl": "https://play.google.com/store/apps/details?id=com.alexsye1999.PaylapFitness",
+            "iosUrl": "https://apps.apple.com/in/app/paylap-fitness/id6748222119",
+            "icon": "Activity",
+            "rating": 4.9,
+            "reviews": "120+",
+            "downloads": "5K+"
+        },
+        {
+            "id": 102,
+            "name": "PayLap Pet Care App",
+            "description": "The easiest way to find a pet. Browse listings and find your forever friend.",
+            "androidUrl": "https://play.google.com/store/apps/details?id=com.alexsye1999.paylappets",
+            "iosUrl": "https://apps.apple.com/us/app/paylap-pet-care/id6751187034",
+            "icon": "Heart",
+            "rating": 5.0,
+            "reviews": "85+",
+            "downloads": "1K+"
+        },
+        {
+            "id": 103,
+            "name": "PayLap Score App",
+            "description": "Business Hua Aur Bhi Easy. Simplify your financial tracking and credit scoring.",
+            "androidUrl": "https://play.google.com/store/apps/details?id=com.paylap.paylapscore",
+            "iosUrl": "https://apps.apple.com/us/app/paylap-score/id6736965791",
+            "icon": "TrendingUp",
+            "rating": 4.8,
+            "reviews": "200+",
+            "downloads": "10K+"
         }
     ]
 }

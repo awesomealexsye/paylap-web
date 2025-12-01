@@ -2,7 +2,7 @@
     "web": [
         {
             "id": 1,
-            "name": "PayLap Real Estate",
+            "name": "PayLap",
             "description": "A powerful real estate listing and management system with filtering, property pages, and admin control.",
             "techStack": [
                 "React",

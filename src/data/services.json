@@ -4,37 +4,55 @@
             "id": 1,
             "title": "Web Applications",
             "description": "Scalable, high-performance web apps built with React, Next.js, and modern frameworks.",
-            "icon": "Globe"
+            "icon": "Globe",
+            "lottie": "",
+            "color": "from-blue-500 to-cyan-400",
+            "shadow": "shadow-blue-500/20"
         },
         {
             "id": 2,
             "title": "Mobile Development",
             "description": "Cross-platform mobile applications for iOS and Android using React Native and Flutter.",
-            "icon": "Smartphone"
+            "icon": "Smartphone",
+            "lottie": "",
+            "color": "from-purple-500 to-pink-500",
+            "shadow": "shadow-purple-500/20"
         },
         {
             "id": 3,
             "title": "AI & Automation",
             "description": "Intelligent systems and automation workflows to streamline your business operations.",
-            "icon": "Bot"
+            "icon": "Bot",
+            "lottie": "",
+            "color": "from-emerald-400 to-green-500",
+            "shadow": "shadow-emerald-500/20"
         },
         {
             "id": 4,
             "title": "Digital Branding",
             "description": "Complete brand identity design, from logos to digital marketing assets.",
-            "icon": "Palette"
+            "icon": "Palette",
+            "lottie": "",
+            "color": "from-orange-400 to-red-500",
+            "shadow": "shadow-orange-500/20"
         },
         {
             "id": 5,
             "title": "Desktop Software",
             "description": "Robust desktop applications for Windows, macOS, and Linux.",
-            "icon": "Monitor"
+            "icon": "Monitor",
+            "lottie": "",
+            "color": "from-indigo-400 to-blue-600",
+            "shadow": "shadow-indigo-500/20"
         },
         {
             "id": 6,
             "title": "Custom Solutions",
             "description": "Tailor-made software solutions designed to meet your specific business needs.",
-            "icon": "Code"
+            "icon": "Code",
+            "lottie": "",
+            "color": "from-pink-500 to-rose-500",
+            "shadow": "shadow-pink-500/20"
         }
     ]
 }

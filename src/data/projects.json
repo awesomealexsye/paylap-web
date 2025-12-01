@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "PayLap Real Estate",
+            "description": "A powerful real estate listing and management system with filtering, property pages, and admin control.",
+            "techStack": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "liveUrl": "https://paylaprealestate.com/#",
+            "thumbnail": "/images/projects/realestate.jpg"
+        },
+        {
+            "id": 2,
+            "name": "PayLap Fitness",
+            "description": "A fitness training, membership, and subscription system with dashboards and digital branding.",
+            "techStack": [
+                "React",
+                "Express",
+                "MySQL"
+            ],
+            "liveUrl": "https://paylapfitness.com/",
+            "thumbnail": "/images/projects/fitness.jpg"
+        },
+        {
+            "id": 3,
+            "name": "PayLap Education",
+            "description": "An online education portal featuring LMS modules, student profiles, assignments, and admin management.",
+            "techStack": [
+                "React",
+                "Node.js",
+                "Firebase"
+            ],
+            "liveUrl": "https://paylapeducation.com/",
+            "thumbnail": "/images/projects/education.jpg"
+        }
+    ]
+}

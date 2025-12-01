@@ -1,0 +1,40 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "title": "Web Applications",
+            "description": "Scalable, high-performance web apps built with React, Next.js, and modern frameworks.",
+            "icon": "Globe"
+        },
+        {
+            "id": 2,
+            "title": "Mobile Development",
+            "description": "Cross-platform mobile applications for iOS and Android using React Native and Flutter.",
+            "icon": "Smartphone"
+        },
+        {
+            "id": 3,
+            "title": "AI & Automation",
+            "description": "Intelligent systems and automation workflows to streamline your business operations.",
+            "icon": "Bot"
+        },
+        {
+            "id": 4,
+            "title": "Digital Branding",
+            "description": "Complete brand identity design, from logos to digital marketing assets.",
+            "icon": "Palette"
+        },
+        {
+            "id": 5,
+            "title": "Desktop Software",
+            "description": "Robust desktop applications for Windows, macOS, and Linux.",
+            "icon": "Monitor"
+        },
+        {
+            "id": 6,
+            "title": "Custom Solutions",
+            "description": "Tailor-made software solutions designed to meet your specific business needs.",
+            "icon": "Code"
+        }
+    ]
+}

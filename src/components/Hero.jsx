@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Code, Cpu, Globe } from 'lucide-react';
 import companyData from '../data/companyInfo.json';
+import Lottie from 'lottie-react';
+import heroAnimation from '../assets/lottie/hero-tech.json';
 
 const Hero = () => {
     return (
@@ -67,47 +69,18 @@ const Hero = () => {
 
                     {/* Visual/Hero Image Placeholder */}
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
-                        animate={{ opacity: 1, scale: 1, rotate: 0 }}
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="lg:w-1/2 relative"
+                        className="lg:w-1/2 relative flex items-center justify-center"
                     >
-                        <div className="relative z-10 glass-card p-8 rounded-3xl border-white/10 bg-gradient-to-br from-white/5 to-transparent">
-                            <div className="absolute top-0 right-0 -mr-4 -mt-4 w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full blur-2xl opacity-40" />
-
-                            {/* Abstract UI Representation */}
-                            <div className="space-y-4">
-                                <div className="flex gap-4 mb-8">
-                                    <div className="w-3 h-3 rounded-full bg-red-500/50" />
-                                    <div className="w-3 h-3 rounded-full bg-yellow-500/50" />
-                                    <div className="w-3 h-3 rounded-full bg-green-500/50" />
-                                </div>
-                                <div className="h-32 rounded-xl bg-white/5 animate-pulse" />
-                                <div className="grid grid-cols-3 gap-4">
-                                    <div className="h-20 rounded-xl bg-white/5" />
-                                    <div className="h-20 rounded-xl bg-white/5" />
-                                    <div className="h-20 rounded-xl bg-white/5" />
-                                </div>
-                                <div className="h-8 w-1/2 rounded-lg bg-blue-500/20" />
-                            </div>
+                        <div className="w-full max-w-lg">
+                            <Lottie
+                                animationData={heroAnimation}
+                                loop={true}
+                                className="w-full h-auto drop-shadow-2xl"
+                            />
                         </div>
-
-                        {/* Floating Elements */}
-                        <motion.div
-                            animate={{ y: [-10, 10, -10] }}
-                            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                            className="absolute -top-10 -right-10 glass-card p-4 rounded-2xl"
-                        >
-                            <Cpu className="text-blue-400" size={32} />
-                        </motion.div>
-
-                        <motion.div
-                            animate={{ y: [10, -10, 10] }}
-                            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                            className="absolute -bottom-5 -left-5 glass-card p-4 rounded-2xl"
-                        >
-                            <Code className="text-purple-400" size={32} />
-                        </motion.div>
                     </motion.div>
 
                 </div>
